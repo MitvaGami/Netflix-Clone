@@ -2,14 +2,6 @@
 
 A simple and responsive Netflix clone website created using HTML, CSS, and JavaScript.
 
-## Table of Contents
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [License](#license)
-
 ## Demo
 You can view a live demo of the website here: [Netflix Clone Live Demo](#)
 
