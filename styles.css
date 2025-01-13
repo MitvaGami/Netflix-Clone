@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+header .nav-links li {
+    margin-left: 1.5rem;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+    color: #00bcd4;
+}
+
+header .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    margin: 1rem 0;
+}
+
+.hero-section .cta-button {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #00bcd4;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.hero-section .cta-button:hover {
+    background-color: #ddd;
+}
+
+/* Services Section */
+.services-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.services-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.services {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.service h3 {
+    margin-bottom: 0.5rem;
+}
+
+.service p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .hamburger {
+        display: block;
+    }
+
+    header .nav-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .nav-links.active {
+        display: flex;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+}
